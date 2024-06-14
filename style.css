@@ -1,0 +1,77 @@
+h1 { 
+    background-color: rgb(104, 95, 161);
+    width: 100%;
+    height: 90px;
+    font-size: 60px;
+    color: aliceblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Reset de margen y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo de la barra de navegación */
+nav {
+    background-color: #b7a1c9;
+}
+
+/* Estilo de la lista de menú */
+.menu {
+    list-style: none;
+    display: flex; /* Hacer los elementos de la lista flexibles y en fila */
+    justify-content: center; /* Centrar el menú horizontalmente */
+}
+
+/* Estilo de los elementos de la lista */
+.menu li {
+    margin: 0 15px; /* Espaciado entre los elementos del menú */
+}
+
+/* Estilo de los enlaces */
+.menu a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px 20px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+/* Cambio de color al pasar el ratón por encima del enlace */
+.menu a:hover {
+    background-color: #8f7999;
+}
+
+h2 {
+    background-color: #a58aba;
+    width: 100%;
+    font: 1em sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+.caja1 {
+display: flex;
+align-self: center;
+padding: 20pt;
+}
+
+.Clothes {
+width: 60%;
+margin-left: 200pt;
+}
+
+h3 {
+background-color: #8f7999;
+width: 18%;
+font: 1em sans-serif;   
+color: aliceblue; 
+margin-left: 20pt;
+}
+
+p {
+margin-left: 20pt;
+}
